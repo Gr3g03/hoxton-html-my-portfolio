@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+      font-family: sans-serif;
+     
+  }
+  
+  body {
+    background-color: #fb795f;
+    line-height: 1.5rem;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  header {
+    margin: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+  }
+  
+  .logo {
+    color: white;
+    font-size: 1rem;
+    display: inline;
+     text-align: left;  
+  }
+
+  nav ul {
+    background-color: #35382e;
+    color: white;
+    padding: 1rem;
+    list-style: none;
+    text-align: right;
+    
+  }
+  nav li {
+    display: inline;
+    padding: 0.8rem;
+  }
+  
+  .about {
+    display: grid;
+    text-align: center;
+  }
+  
+  header .content {
+    margin-left: 15rem;
+    width: 40rem;
+    background-color: #35382e;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 5rem;
+  }
+  
+  main{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 1rem;
+      padding-top: 2rem;
+      background-color: #ede6e2;
+      
+     
+  }
+
+  main ul{
+      list-style: none;
+      display: inline;
+  }
+
+
+
+  .projects{
+    display: grid;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+  }
+
+
+  .title{
+      color:#fb795f;
+      
+  }
+
+  
+
+  .button{
+    border: 0;
+    line-height: 2rem;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fb795f
+  }
+
+
+
+  footer {
+   display:grid; 
+   grid-template-rows: (repeat(4, 1fr) 20px);
+   grid-gap: 10px;
+   background-color: #5bc3eb;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   justify-content: center;
+
+  }
+
+  footer ul{
+    background-color: white;
+    
+  }
+  footer li{
+      display: inline;
+      padding: 2rem;
+      
+  }
+
+  .infos{
+    text-align: center;
+   
+  }
+
+
+  #back-to-top{
+    background-color: #35382e;
+    display: grid;
+    text-align: center;
+  }
